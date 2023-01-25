@@ -1,0 +1,75 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/*Google Font*/
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 7rem;
+}
+
+h2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 3rem;
+}
+
+h2:hover {
+	color: #FF7F50;
+}
+
+h3 {
+	font-family: 'Aboreto', cursive;
+	font-size: 2rem;
+	color: #FF7F50;
+}
+
+h3:hover {
+	color: black;
+}
+
+h1:hover {
+	color: #FF7F50;
+}
+
+h4 {
+	font-family: 'Aboreto', cursive;
+	font-size: 1rem;
+	padding: 18px;
+}
+
+h4:hover {
+	background: #E9967A;
+	color: black;
+	font-size: 1rem;
+}
+
+#textZ {
+	position: relative;
+	text-align: center;
+}
+
+img:hover {
+	background: #E9967A;
+}
+
+img	{
+	position: relative;
+}
+
+p {
+	position: relative;
+	font-size: 3rem;
+	font-family: 'Aboreto', cursive;
+}
+
+p:hover {
+	background: white;
+	opacity: 75%;
+}
