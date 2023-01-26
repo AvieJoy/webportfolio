@@ -29,7 +29,7 @@
 		<!-- Navigation Bar -->
 		<ul class="nav nav-tabs justify-content-center bg-dark fixed-top">
 		  <li class="nav-item">
-		    <a class="nav-link active" href="#home">Home</a>
+		    <a class="nav-link text-light" href="#home">Home</a>
 		  </li>
 		  <li class="nav-item">
 		    <a class="nav-link text-light" href="#about">About</a>
@@ -46,10 +46,10 @@
 		<!-- Main Content -->
 		
 			<!-- Home -->
-			<div class="container-fluid col-md-12 p-0 mx-auto" id="home">
+			<div class="container-fluid col-md-12 p-0 mx-auto justify-content-center" id="home">
 				<div class="bg-light min-vh-100">
 					<div id="textZ" class="col-md-12">
-							<h1 class="mt-5"><a href="#about" class="text-dark text-decoration-none">Get to know me</a></h1>
+							<h1 class="p-5"><a href="#about" class="text-dark text-decoration-none">Get to know me</a></h1>
 							<h3><a href="#contact" class="link-dark text-dark text-decoration-none">Your Future Web Developer</a></h3>
 							<a href="#gallery" class="link-light mx-auto"><img src="./images/one.png"></a>
 					</div>
@@ -58,15 +58,14 @@
 			<!-- Home End -->
 
 			<!-- About Me -->
-			<div class="container-fluid col-md-12 p-0 bg-light text-center text-light mx-auto row" id="about">
-				<div class="col-xl-12 col-md-12 p-3 bg-secondary" ><h2>Basic Things You Need To Know</h2></div>
+			<div class="container-fluid col-md-12 mt-3 bg-light text-center text-light mx-auto row min-vh-100" id="about">
+				<div class="col-xl-12 col-md-12 p-5 bg-secondary"><h2>Basic Things You Need To Know</h2></div>
 				<!-- Left Side -->
-				<div class="col-xl-6 col-md-12 p-3 mx-auto">
+				<div class="col-xl-6 col-md-12 p-3 mx-auto min-vh-100 order-sm-2">
 						<div class="bg-secondary text-light">
 							<div id="textZ">
-								<h3>Personal Information</h3>
-								<h4>FIRST NAME: Avie Joy</h4>
-								<h4>LAST NAME: Espinar</h4>
+								<h3 class="bg-light">Personal Information</h3>
+								<h4>FULL NAME: Avie Joy ESPINAR</h4>
 								<h4>BIRTHDATE: **/**/****</h4>
 								<h4>MARITAL STATUS: Single</h4>
 								<h4>OCCUPATION: Benefits System Administrator</h4>
@@ -77,29 +76,20 @@
 				</div>
 				<!-- Left Side End -->
 				<!-- Right Side -->
-				<div class="col col-xl-6 col-sm-12 p-3 mx-auto">
-						<div class="bg-secondary text-light mx-auto">
-							<div id="textZ" class="col-sm-12 p-3 mx-auto">
-								<a href="https://www.facebook.com/"><p class="text-primary">FACEBOOK</p></a>
-							</div>
-							<div id="textZ" class="col-sm-12 p-3 mx-auto">
-								<a href="https://twitter.com/"><p class="text-info">TWITTER</p></a>
-							</div>
-							<div id="textZ" class="col-sm-12 p-3 mx-auto">
-								<a href="https://www.youtube.com/"><p class="text-danger">YOUTUBE</p></a>
-							</div>
-							<div id="textZ" class="col-sm-12 p-3 mx-auto">
-								<a href="https://www.tiktok.com/en/"><p class="text-dark">TIKTOK</p></a>
-							</div>
+				<div class="col col-xl-6 col-sm-12 p-3 mx-auto min-vh-100">
+					<div class="bg-transparent text-light mx-auto justify-content-center">
+						<div id="textZ" class="col-sm-12 p-3 mx-auto">
+							<img src="./images/about.jpg" width="250" class="mt-md-5 rounded">
 						</div>
+					</div>
 				</div>
 				<!-- Right Side End -->
 			</div>
 			<!-- About Me End -->
 
 			<!-- Gallery -->
-			<div class="container-fluid col-md-12 p-0 bg-light text-center text-light mx-auto justify-content-center" id="gallery">
-				<div class="col-xl-12 col-md-12 p-3 bg-secondary"><h2>Gallery</h2></div>
+			<div class="container-fluid col-md-12 mt-3 bg-light text-center text-light mx-auto justify-content-center min-vh-100" id="gallery">
+				<div class="col-xl-12 col-md-12 p-5 bg-secondary"><h2>Gallery</h2></div>
 
 				<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
 				  <div class="carousel-inner">
@@ -126,8 +116,8 @@
 			<!-- Gallery End -->
 
 			<!-- Contact -->
-            <div class="container-fluid col-md-12 p-0 bg-light text-center text-light mx-auto justify-content-center" id="contact">
-				<div class="col-md-12 p-3 bg-secondary"><h2>Contact Me</h2></div>
+            <div class="container-fluid col-md-12 mt-3 bg-light text-center text-light mx-auto justify-content-center min-vh-100" id="contact">
+				<div class="col-md-12 p-5 bg-secondary"><h2>Contact Me</h2></div>
                 	<div class="offset-xl-3 col-xl-6 bg-dark">
                 		<form class="p-3">
                 		  <div class="form-group">
@@ -167,7 +157,7 @@
                 	        </button>
                 	      </div>
                 	      <div class="modal-body">
-                	        <h4>Thank You for you Inquiry</h4>
+                	        <h4>Successfully Sent!</h4>
                 	      </div>
                 	      <div class="modal-footer">
                 	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
